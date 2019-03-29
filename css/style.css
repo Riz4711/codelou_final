@@ -12,6 +12,10 @@ body {
 	color: #000000;
 }
 
+button {
+	display: inline-block;
+}
+
 p {
 	font-size: .95em;
 }
@@ -20,6 +24,14 @@ img {
 	max-width: 100%;
 }
 
+#flashMessage {
+    color: white;
+    background-color: ##1F618D;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+}
 
 /* =================================
   Base Layout Styles

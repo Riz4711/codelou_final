@@ -28,29 +28,19 @@ img {
 /* ---- Navigation ---- */
 
 .main-nav {
-	margin-top: 30px 15px;
-	background-color: #85929E;
+	font-size: 1.1em;
 }
 
-.main-header {
-
+.top-content {
+	margin-top: 120px;
 }
-
-.main-footer {
-
-}
-
 
 /* ---- Page Elements ---- */
 
-
 .logo {
-
+	vertical-align: top;
 }
 
-.ma-heroImage {
-
-}
 
 .display-4 {
 	margin-top: 30px;
@@ -60,37 +50,36 @@ img {
   Media Queries
 ==================================== */
 
+@media (max-width: 576px) {
 
-@media (min-width: 576px) {
-
-	.main-header,
-	.main-nav,
-	.row {
-		display: flex;
-	}
-
-	.main-header {
-		flex-direction: column;
-		align-items center;
+	.camp_vert {
+		visibility: hidden;
 	}
 
 }
 
-@media (min-width: 720px) {
-	.main-header {
-		flex-direction: row;
-		justify-content: space-between;
+
+@media (min-width: 576px) {
+
+	.camp_vert {
+		visibility: visible;
+
 	}
+
+	.camp_horz {
+		visibility: hidden;
+	}
+
 
 }
 
 	/* ---- Float clearfix ---- */
 
-	.clearfix::after {
+	/* .clearfix::after {
 		content: "";
 		display: table;
 		clear: both;
-	}
+	} */
 
 
 	/* =================================
